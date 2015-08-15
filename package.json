@@ -1,0 +1,30 @@
+{
+  "name": "soyvoluntar.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "rest",
+    "api",
+    "volunteers",
+    "voluntarios"
+  ],
+  "author": "Daniel Sanchez @ <https://github.com/cube5>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-jwt": "^3.0.1",
+    "jsonwebtoken": "^5.0.4",
+    "mongoose": "^4.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2"
+  }
+}
